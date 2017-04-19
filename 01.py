@@ -1,3 +1,7 @@
+import random
+import sys
+import os
+
 words = list()
 uniqueWords = list()
 
@@ -12,6 +16,16 @@ for i in words:
 		if i not in uniqueWords:
 			uniqueWords.append(i)
 
-uniqueWords.sort()
-		
-print(uniqueWords)
+# uniqueWords.sort()
+#
+# print(uniqueWords)
+
+poem_raw = list()
+for i in range(0,10000):
+	poem_raw.append(random.choice(uniqueWords))
+
+# print(poem_raw)
+
+
+for i in range(len(poem_raw)/5+1):
+    print " ".join(poem_raw[i*5:(i+1)*5]) + "\n"
