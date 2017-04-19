@@ -21,11 +21,11 @@ for i in words:
 # print(uniqueWords)
 
 poem_raw = list()
-for i in range(0,10000):
+for i in range(0,100):
 	poem_raw.append(random.choice(uniqueWords))
 
 # print(poem_raw)
 
 
 for i in range(len(poem_raw)/5+1):
-    print " ".join(poem_raw[i*5:(i+1)*5]) + "\n"
+    print " ".join(poem_raw[i*5:(i+1)*5])
