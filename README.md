@@ -5,4 +5,13 @@ This is a work-in-progress. I created it to generate some random text, and to co
 
 Enjoy!
 
-## Download the latest version:
+***
+
+### Download the latest version (v1.0):
+* [Source code (zip)](https://github.com/tommyyearginjr/poem-generator/archive/v1.0.zip)
+* [Source code (tar.gz)](https://github.com/tommyyearginjr/poem-generator/archive/v1.0.tar.gz)
+
+***
+Copyright 2017 Tommy H. Yeargin, Jr.
+
+[yeargin.org/blog](http://www.yeargin.org/blog)
