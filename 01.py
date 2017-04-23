@@ -5,7 +5,7 @@ import os
 words = list()
 uniqueWords = list()
 
-originalText = open('gettysburg.txt', 'r').read()
+originalText = open('emma.txt', 'r').read()
 
 for i in originalText.split():
 	i = (i.rstrip('?:!.,;-')).lower()
@@ -26,7 +26,7 @@ poem_raw = list()
 
 wordsPerLine = 8
 
-for i in range(0,100):
+for i in range(0,1000):
 	poem_raw.append(random.choice(uniqueWords))
 
 for i in range(len(poem_raw)/wordsPerLine+1):
